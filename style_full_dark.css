@@ -467,6 +467,10 @@ ul#navlist li a {
 	font-weight: 700;
 	font-size: 1.3em;
 	letter-spacing: .07em;
+	text-overflow: ellipsis;
+    width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 ul#navlist li:first-child a { 
@@ -475,6 +479,11 @@ ul#navlist li:first-child a {
 
 ul#navlist li.current a, .no-touch ul#navlist li a:hover, ul#navlist li a.selected {
 	color: #fff;
+	text-overflow: ellipsis;
+	text-overflow: ellipsis;
+    width: 120px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .no-touch ul#navlist li a:hover, ul#navlist li a.selected {
@@ -510,6 +519,10 @@ ul#navlist li.current a, .no-touch ul#navlist li a:hover, ul#navlist li a.select
 	padding: 8px 15px;
 	border-top: 1px solid #4d4d4d;
 	border-bottom: 1px solid #262626;
+	text-overflow: ellipsis;
+    width: 170px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .ddsubmenustyle > ul > li:first-child a {	
